@@ -1,5 +1,6 @@
 const { join } = require('path')
 const sass = require('node-sass-middleware')
+const app = require('../app')
 
 const options = {
     src: join(__dirname, '..', 'public'),
