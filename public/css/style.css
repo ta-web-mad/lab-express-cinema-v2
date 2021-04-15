@@ -1,8 +1,71 @@
 body {
   font-family: sans-serif;
-  font-weight: 200; }
+  font-weight: 200;
+  background: url(../img/cinema.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.white-bg {
+  background-color: white; }
+
+.white-text {
+  color: white; }
+
+.catchline {
+  font-size: 1.2em;
+  font-weight: 400; }
 
 .navbar {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  background-color: black; }
+
+.home-h1 {
+  padding-top: 100px;
+  font-size: 7em;
+  color: white;
+  padding-bottom: 25px; }
+
+.movie-list {
+  text-align: center; }
+
+.movie-list h2 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 10px; }
+
+.movie-list img {
+  padding-top: 50px;
+  display: block;
+  margin: auto; }
+
+.movie-details {
+  padding: 50px; }
+
+.movie-details img {
+  height: 100%;
+  width: auto;
+  margin: auto; }
+
+.movie-details h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 10px; }
+
+.movie-details h2 {
+  font-size: 1.2em;
+  font-weight: 500; }
+
+.movie-details h3 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 20px; }
+
+.white-btn {
+  color: cornflowerblue;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 25px; }
 
 /*# sourceMappingURL=style.css.map */
