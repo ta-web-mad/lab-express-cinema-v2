@@ -29,7 +29,7 @@ body {
 .card-film > p {
   font-weight: bold; }
 
-.card-film > a {
+.link {
   text-decoration: underline;
   font-weight: bold; }
 

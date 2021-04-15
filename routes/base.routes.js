@@ -14,5 +14,11 @@ router.get('/list-movies', (req, res) => {
         .catch(err => console.log('Error!', err))
 })
 
+router.get('/movie/:id', (req, res) => {
+    Movie
+        .findById(req.params.id)
+        .then(movie => res.render('pages/movie', movie))
+        .catch(err => console.log('Error!', err))
+})
 
 module.exports = router
