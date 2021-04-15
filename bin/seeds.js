@@ -102,6 +102,6 @@ Movie
 .create(movies)
     .then(response => {
     console.log('Estass son los Movies!', response)
-    //mongoose.connection.close();
+    mongoose.connection.close();
     })
     .catch(err => console.log('se produjo un error...', err))
