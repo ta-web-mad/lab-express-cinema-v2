@@ -3,6 +3,73 @@ body {
   font-weight: 200;
 }
 
-.navbar {
-  margin-bottom: 50px;
+.cover {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  overflow-x: hidden;
+}
+
+.initialPage {
+  position: relative;
+  text-align: left;
+  margin: 0;
+  float: right;
+  width: 60%;
+}
+
+.initialPage h1 {
+  font-size: 110px;
+  font-weight: bold;
+  color: white;
+}
+
+.button {
+  border-radius: 10px;
+  color: rgb(86, 86, 199);
+}
+
+.centered {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sameSize {
+  width: auto;
+  height: 500px;
+}
+
+.movieCard {
+  display: flex;
+  margin: 2em 10em;
+}
+
+.movieData {
+  margin: 0 100px;
+}
+
+.movieData h3 {
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+
+.movieData h4 {
+  margin-bottom: 0.8em;
+}
+
+.bold {
+  font-weight: bold;
 }

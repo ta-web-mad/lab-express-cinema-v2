@@ -1,0 +1,18 @@
+<div class="movieCard">
+    <img class="sameSize" src="{{image}}" alt="{{title}}">
+    <div class="movieData">
+        <a href="/movies">Go back</a>
+        <h3 class="bold">{{title}}</h3>
+        <h4 class="bold">Director: {{director}}</h4>
+        <p class="bold">Stars</p>
+        <ul>
+            {{#each stars}}
+            <li>{{{this}}}</li>
+            {{/each}}
+        </ul>
+        <p>{{description}}</p>
+        {{#each showtimes}}
+        <span>{{{this}}} | </span>
+        {{/each}}
+    </div>
+</div>
