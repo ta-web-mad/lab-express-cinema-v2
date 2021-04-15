@@ -6,3 +6,38 @@ body {
 .navbar {
   margin-bottom: 50px;
 }
+
+.title{
+  margin-bottom: 40px;
+}
+
+
+.list-btn{
+  margin-top: 80px;
+  background-color: black;
+  border:none;
+  border-radius: 40px;
+  color: aqua;
+  padding: 25px 50px;
+}
+
+.card-film{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card-film > img {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.card-film > p{
+  font-weight: bold;
+}
+
+.card-film > a {
+  text-decoration: underline;
+  font-weight: bold;
+}

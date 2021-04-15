@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 
-const MONGODB_URI = process.env.MONGODB_URI || `mongodb://localhost/express-boilerplate`
+const MONGODB_URI = process.env.MONGODB_URI
+//console.log(process.env, "wtf--------------------")
 
 mongoose
     .connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
