@@ -26,3 +26,5 @@ require('./routes')(app)
 require('./config/error-handlers.config')(app)
 
 module.exports = app
+
+//app.listen(3000)

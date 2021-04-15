@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Movies list</h1>
+    <hr>
+    <ul>
+        {{#each allMovies}}
+        <li>{{title}} | <a href="/movies">See more</a></li>
+        {{/each}}
+    </ul>
+    <hr>
+    <a href="/" class="btn btn-dark">Volver al incio</a>
+</div>
