@@ -36,19 +36,4 @@ router.get('/movies-common/:movie_id', (req, res, next) => {
     
     
 
-
-
-
-    
-
-// router.get('/libros/detalles/:book_id', (req, res) => {
-
-//     const { book_id } = req.params
-
-//     Book
-//         .findById(book_id)
-//         .then(theBook => res.render('pages/book-detail', theBook))
-//         .catch(err => console.log('Error!', err))
-// })
-
 module.exports = router
