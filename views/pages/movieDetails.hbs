@@ -1,0 +1,33 @@
+<div class="container details-section">
+    <div class="row">
+
+        <div class="col-md-2">
+            <img class="" src="{{image}}" alt="{{title}}">
+
+
+        </div>
+        <div class="col-md-8">
+            <a href="/movies">Back to Movies</a>
+            <hr>
+            <h2>{{title}}</h2>
+        
+            <h3>Director: {{director}} </h3>
+            <hr>
+
+            <p><strong>Stars</strong></p>
+            <ul>
+                {{#each stars}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+            <p>{{description}}</p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+</div>
