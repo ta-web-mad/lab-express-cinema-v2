@@ -5,4 +5,10 @@ body {
 .navbar {
   margin-bottom: 50px; }
 
+.details {
+  display: flex; }
+
+.img-dt {
+  margin-right: 45px; }
+
 /*# sourceMappingURL=style.css.map */
